@@ -1,6 +1,6 @@
 {
   "name": "js26-vite-project",
-  "homepage": "https://qiang1501.github.io/kuso/",
+  "homepage": "https://qiang1501.github.io/kuso2/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "build:azure": "vite build"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
