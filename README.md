@@ -58,3 +58,4 @@ export default tseslint.config({
 "# kuso3" 
 "# kuso4" 
 "# kuso5" 
+"# kuso6" 
