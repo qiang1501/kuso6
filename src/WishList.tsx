@@ -3,7 +3,6 @@ import { useState, useEffect, useRef } from 'react'
 import Stack from '@mui/material/Stack'
 import Button from '@mui/material/Button'
 import './WishLish.css'
-import { colors } from '@mui/material'
 
 export default function WishList() {
   const [beatTimes, setBeatTimes] = useState<number[]>([]) // 用于存储节奏时间数据
@@ -12,7 +11,6 @@ export default function WishList() {
   const [FFtailget, FFtailset] = useState<Particle[]>([])
   const [isPlaying, setIsPlaying] = useState(false)
   // 新增状态 showMain 用于控制是否显示主界面
-  const [showMain, setShowMain] = useState(true) // 控制显示主内容
   const audioRef = useRef<HTMLAudioElement>(null) // 引用音频元素
   // 新增状态：存储当前点击的按钮名称
   const [activeButton, setActiveButton] = useState<string | null>(null)
