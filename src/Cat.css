@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.cat-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 2000px;
+  padding: 10px;
+}
+
+.cat-card img {
+  width: 100%;
+}

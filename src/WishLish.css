@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* 禁止滚动条 */
+  background-color: black;
+  /* 确保背景颜色一致 */
+}
