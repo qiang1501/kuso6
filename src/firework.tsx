@@ -1,4 +1,3 @@
-// 删除 React 的导入
 import { useState, useEffect } from 'react'
 
 export const Firework = ({
