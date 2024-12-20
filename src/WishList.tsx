@@ -24,18 +24,18 @@ export default function WishList() {
   const musicSelect = [
     {
       name: 'Canon',
-      musicPath: '/public/Blenders - Canon (remix_George Winston).ogg',
-      txtPath: '/public/Canon.txt',
+      musicPath: '/Blenders - Canon (remix_George Winston).ogg',
+      txtPath: '/Canon.txt',
     },
     {
       name: '深夜高速',
-      musicPath: '/public/Flower.ogg',
-      txtPath: '/public/Flower.txt',
+      musicPath: '/Flower.ogg',
+      txtPath: '/Flower.txt',
     },
     {
       name: '失くした言葉',
-      musicPath: '/public/No Regret Life - 失くした言葉 (逝去的语言).ogg',
-      txtPath: '/public/失くした言葉.txt',
+      musicPath: '/No Regret Life - 失くした言葉 (逝去的语言).ogg',
+      txtPath: '/失くした言葉.txt',
     },
   ]
 
