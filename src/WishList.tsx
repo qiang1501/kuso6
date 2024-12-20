@@ -258,7 +258,8 @@ export default function WishList() {
                   audioRef.current.src = musicPath // 更新音频路径
                   setIsPlaying(false) // 停止当前播放
                 }
-
+                console.log('Selected musicPath:', musicPath) // 打印选中的音频路径
+                console.log('Selected txtPath:', txtPath) // 打印选中的文本路径
                 // 设置当前活动按钮
                 setActiveButton(name)
 
