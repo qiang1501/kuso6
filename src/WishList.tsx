@@ -37,6 +37,21 @@ export default function WishList() {
       musicPath: '/kuso6/No Regret Life - 失くした言葉 (逝去的语言).ogg',
       txtPath: '/kuso6/失くした言葉.txt',
     },
+    // {
+    //   name: 'Canon',
+    //   musicPath: '/Blenders - Canon (remix_George Winston).ogg',
+    //   txtPath: '/Canon.txt',
+    // },
+    // {
+    //   name: '深夜高速',
+    //   musicPath: '/Flower.ogg',
+    //   txtPath: '/Flower.txt',
+    // },
+    // {
+    //   name: '失くした言葉',
+    //   musicPath: '/No Regret Life - 失くした言葉 (逝去的语言).ogg',
+    //   txtPath: '/失くした言葉.txt',
+    // },
   ]
 
   // 增加一组粒子数的按钮，100，200，500，1000，2000，5000，10000
