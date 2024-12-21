@@ -231,7 +231,7 @@ export default function WishList() {
         boxSizing: 'border-box',
       }}
     >
-      <h2 style={{ color: isPlaying ? 'gray' : 'pink' }}>妈的</h2>
+      <h2 style={{ color: isPlaying ? 'gray' : 'pink' }}>16.34</h2>
       <div
         style={{
           pointerEvents: isPlaying ? 'none' : 'auto', // 禁止鼠标事件
