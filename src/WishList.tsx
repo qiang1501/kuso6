@@ -231,11 +231,21 @@ export default function WishList() {
         boxSizing: 'border-box',
       }}
     >
-      <h2 style={{ color: isPlaying ? 'gray' : 'pink' }}>16.34</h2>
+      <div>
+        {/* 刷新网页按钮 */}
+        <Button
+          variant='outlined'
+          onClick={() => window.location.reload()} // 刷新网页
+          style={{ marginLeft: '10px' }}
+        >
+          雑魚パソコンが降参だ
+        </Button>
+      </div>
+      <h2 style={{ color: isPlaying ? 'gray' : 'pink' }}>火花の数を選ぶ</h2>
       <div
         style={{
           pointerEvents: isPlaying ? 'none' : 'auto', // 禁止鼠标事件
-          opacity: isPlaying ? 0.5 : 1, // 调整透明度
+          opacity: isPlaying ? 0.1 : 1, // 调整透明度
         }}
       >
         {lizishu.map(({ name, value }) => (
@@ -261,7 +271,7 @@ export default function WishList() {
         <div
           style={{
             pointerEvents: isPlaying ? 'none' : 'auto', // 禁止鼠标事件
-            opacity: isPlaying ? 0.5 : 1, // 调整透明度
+            opacity: isPlaying ? 0.1 : 1, // 调整透明度
           }}
         >
           {musicSelect.map(({ name, musicPath, txtPath }) => (
@@ -319,17 +329,7 @@ export default function WishList() {
             onClick={playFireworks}
             disabled={isPlaying}
           >
-            音楽に合わせて花火を打ち上げる！
-          </Button>
-        </div>
-        <div>
-          {/* 刷新网页按钮 */}
-          <Button
-            variant='outlined'
-            onClick={() => window.location.reload()} // 刷新网页
-            style={{ marginLeft: '10px' }}
-          >
-            元に戻る
+            <h2>🎆音楽に合わせて花火を打ち上げる！🎆</h2>
           </Button>
         </div>
       </Stack>
