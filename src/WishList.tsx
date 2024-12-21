@@ -24,17 +24,17 @@ export default function WishList() {
   const musicSelect = [
     {
       name: 'Canon',
-      musicPath: '/kuso6/Blenders - Canon (remix_George Winston).ogg',
+      musicPath: '/kuso6/Blenders-Canon-_remix_George-Winston_.mp3',
       txtPath: '/kuso6/Canon.txt',
     },
     {
       name: '深夜高速',
-      musicPath: '/kuso6/Flower.ogg',
+      musicPath: '/kuso6/Flower.mp3',
       txtPath: '/kuso6/Flower.txt',
     },
     {
       name: '失くした言葉',
-      musicPath: '/kuso6/No Regret Life - 失くした言葉 (逝去的语言).ogg',
+      musicPath: '/kuso6/No-Regret-Life-失くした言葉-_逝去的语言_.mp3',
       txtPath: '/kuso6/失くした言葉.txt',
     },
     // {
@@ -329,7 +329,7 @@ export default function WishList() {
             onClick={playFireworks}
             disabled={isPlaying}
           >
-            <h2>🎆音楽に合わせて花火を打ち上げる！🎆</h2>
+            <h1>🎆</h1>
           </Button>
         </div>
       </Stack>
