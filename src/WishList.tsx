@@ -91,7 +91,7 @@ export default function WishList() {
   const FFlogic = (volume: number) => {
     //这里改成选择了的粒子数
     const particleCount = Math.floor(
-      Math.pow(volume, 2) * selectedParticleCount
+      Math.pow(volume, 1.5) * selectedParticleCount
     ) // 使用平方函数调整粒子数
 
     const newParticles: Particle[] = []
