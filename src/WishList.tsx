@@ -21,6 +21,9 @@ export default function WishList() {
     }
   }
 
+  const [isKuso, setIsKuso] = useState<boolean>(false)
+  const kuso = ['くそ', 'シーバ', 'ファック']
+
   const musicSelect = [
     {
       name: 'Canon',
@@ -264,6 +267,17 @@ export default function WishList() {
         ))}
       </div>
       <h2 style={{ color: isPlaying ? 'gray' : 'pink' }}>音楽を選ぶ</h2>
+      <Button
+        onClick={() => setIsKuso(!isKuso)}
+        style={{
+          margin: '0 5px',
+          border: '1px solid currentColor',
+          backgroundColor: isKuso ? 'lightblue' : '',
+          marginBottom: '20px',
+        }}
+      >
+        クソスイッチ
+      </Button>
       {/* 音频元素 */}
       <audio ref={audioRef} src='public\Flower.ogg' />
       <Stack spacing={2}>
@@ -347,8 +361,18 @@ export default function WishList() {
               height: '6px',
               backgroundColor: particle.colorNow,
               pointerEvents: 'none',
+              color:
+                'rgb(' +
+                Math.floor(Math.random() * 255) +
+                ',' +
+                Math.floor(Math.random() * 255) +
+                ',' +
+                Math.floor(Math.random() * 255) +
+                ')',
             }}
-          ></div>
+          >
+            {isKuso && kuso[Math.floor(Math.random() * kuso.length)]}
+          </div>
         ))}
       </div>
       {/* 渲染尾巴 */}
